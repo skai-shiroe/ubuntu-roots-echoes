@@ -18,7 +18,7 @@ export default defineConfig(({ mode }) => ({
     },
   },
   plugins: [
-    { enforce: "pre", ...mdx({ providerImportSource: "@mdx-js/react", remarkPlugins: [remarkGfm, remarkFrontmatter, [remarkMdxFrontmatter, { name: "frontmatter" }]], rehypePlugins: [rehypeSlug] }) },
+    { enforce: "pre", ...mdx({ jsxRuntime: "automatic", development: false, providerImportSource: "@mdx-js/react", remarkPlugins: [remarkGfm, remarkFrontmatter, [remarkMdxFrontmatter, { name: "frontmatter" }]], rehypePlugins: [rehypeSlug] }) },
     react(),
     mode === "development" && componentTagger(),
   ].filter(Boolean),
