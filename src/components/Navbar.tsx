@@ -17,11 +17,11 @@ export const Navbar = () => {
     <header className="sticky top-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
       <div className="container-wide flex items-center justify-between h-16">
         <Link to="/" className="flex items-center gap-2 group">
-        <img
-    src="/africaicon.png"
-    alt="Africaviwo logo"
-    className="h-8 w-8 rounded-full object-cover transition-transform group-hover:scale-110"
-  />
+          <img
+            src="/africaicon.png"
+            alt="Africaviwo logo"
+            className="h-8 w-8 rounded-full object-cover transition-transform group-hover:scale-110"
+          />
           <span className="font-serif text-xl tracking-tight">Africaviwo</span>
         </Link>
         <nav className="hidden md:flex items-center gap-8">
