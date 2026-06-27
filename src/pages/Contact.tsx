@@ -21,7 +21,7 @@ const Contact = () => {
               <span className="italic text-primary">une histoire,<br />une racine.</span>
             </h1>
             <p className="text-foreground/75 text-lg leading-relaxed mb-8">
-              Ubuntu Roots se nourrit de récits réels. Partagez le vôtre — proverbe de famille, portrait, idée d'article. Nous lisons tout.
+              Africaviwo se nourrit de récits réels. Partagez le vôtre — proverbe de famille, portrait, idée d'article. Nous lisons tout.
             </p>
             <a href="mailto:hello@ubunturoots.org" className="inline-flex items-center gap-2 text-primary font-semibold link-underline">
               <Mail className="h-4 w-4" />

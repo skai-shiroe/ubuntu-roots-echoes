@@ -19,7 +19,7 @@ export const Hero = () => (
 
     <div className="relative container-wide pt-32 pb-20 md:pt-40 md:pb-32 grid md:grid-cols-12 gap-8 min-h-[92vh] items-end">
       <div className="md:col-span-8 lg:col-span-7">
-        <div className="eyebrow text-ember mb-6 animate-fade-in">Ubuntu Roots</div>
+        <div className="eyebrow text-ember mb-6 animate-fade-in">Africaviwo</div>
         <h1 className="display-xl text-balance mb-6 animate-slide-up [animation-delay:120ms]">
           Nos racines.<br />
           <span className="italic text-ember">Nos valeurs.</span><br />

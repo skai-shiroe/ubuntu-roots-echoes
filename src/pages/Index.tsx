@@ -118,7 +118,7 @@ const Index = () => {
             Une histoire à partager ? <span className="italic">Une voix à porter ?</span>
           </h2>
           <p className="text-bone/85 text-lg max-w-xl mx-auto mb-8">
-            Ubuntu Roots se construit avec ses lecteurs. Contribuez à la fresque collective.
+            Africaviwo se construit avec ses lecteurs. Contribuez à la fresque collective.
           </p>
           <Link
             to="/contact"

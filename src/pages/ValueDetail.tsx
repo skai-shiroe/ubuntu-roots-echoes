@@ -11,7 +11,7 @@ const ValueDetail = () => {
 
   useEffect(() => {
     if (value) {
-      document.title = `${value.title} — Ubuntu Roots`;
+      document.title = `${value.title} — Africaviwo`;
     }
   }, [value]);
 

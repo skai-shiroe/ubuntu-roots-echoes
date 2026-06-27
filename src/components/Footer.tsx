@@ -6,7 +6,7 @@ export const Footer = () => (
       <div className="md:col-span-2">
         <div className="flex items-center gap-2 mb-4">
           <span className="h-8 w-8 rounded-full bg-gradient-sahel grain" />
-          <span className="font-serif text-xl">Ubuntu Roots</span>
+          <span className="font-serif text-xl">Africaviwo</span>
         </div>
         <p className="text-foreground/70 max-w-md leading-relaxed">
           Un espace pour célébrer les valeurs, les voix et les futurs de l'Afrique. Sans clichés, sans condescendance — juste la vérité d'un continent en mouvement.
@@ -31,7 +31,7 @@ export const Footer = () => (
     </div>
     <div className="border-t border-border/50">
       <div className="container-wide py-6 flex flex-col md:flex-row justify-between gap-3 text-xs text-foreground/60">
-        <span>© {new Date().getFullYear()} Ubuntu Roots. Toutes les voix comptent.</span>
+        <span>© {new Date().getFullYear()} Africaviwo. Toutes les voix comptent.</span>
         <span className="font-serif italic">Nos racines. Nos valeurs. Notre futur.</span>
       </div>
     </div>

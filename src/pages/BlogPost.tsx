@@ -10,7 +10,7 @@ const BlogPost = () => {
   const post = slug ? getPost(slug) : undefined;
 
   useEffect(() => {
-    if (post) document.title = `${post.title} — Ubuntu Roots`;
+    if (post) document.title = `${post.title} — Africaviwo`;
   }, [post]);
 
   if (!post) return <Navigate to="/blog" replace />;

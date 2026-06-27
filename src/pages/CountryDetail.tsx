@@ -10,7 +10,7 @@ const CountryDetail = () => {
   const country = slug ? getCountry(slug) : undefined;
 
   useEffect(() => {
-    if (country) document.title = `${country.name} — Ubuntu Roots`;
+    if (country) document.title = `${country.name} — Africaviwo`;
   }, [country]);
 
   if (!country) return <Navigate to="/carte" replace />;
